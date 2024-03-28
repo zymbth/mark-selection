@@ -1,0 +1,39 @@
+{
+  "name": "mark-selection",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Mark the text selection on the html",
+  "files": [
+    "dist",
+    "lib/main.js"
+  ],
+  "main": "./dist/mark-selection.umd.js",
+  "module": "./dist/mark-selection.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/mark-selection.js",
+    "require": "./dist/mark-selection.umd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zymbth/mark-selection.git"
+  },
+  "keywords": [
+    "mark",
+    "selection"
+  ],
+  "author": "ymzhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zymbth/mark-selection/issues"
+  },
+  "homepage": "https://github.com/zymbth/mark-selection#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10"
+  }
+}
